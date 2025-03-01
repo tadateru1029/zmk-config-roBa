@@ -85,7 +85,7 @@
 &mt LEFT_SHIFT LANGUAGE_1  &mt LEFT_CONTROL AT_SIGN  &mt LEFT_ALT BACKSLASH  &lt_to_layer_0 6 BACKSPACE  &lt 2 SPACE  &lt_to_layer_0 3 TAB      &kp BACKSPACE  &lt 1 ENTER                                                        &kp LANGUAGE_2
             >;
 
-            sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
+            sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
         };
 
         FUNCTION {
