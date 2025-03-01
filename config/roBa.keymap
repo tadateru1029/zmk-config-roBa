@@ -67,7 +67,7 @@
             bindings = <&msc SCRL_DOWN> , <&msc SCRL_UP>;
             // 追加: スクロールのタップ時間を設定 (20ms)
             tap-ms = <20>;
-        }
+        };
 
     };
 
