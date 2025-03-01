@@ -114,7 +114,7 @@
 &trans          &trans                  &trans          &trans                   &trans   &trans      &kp BACKSPACE  &kp DELETE                                                              &kp EXCLAMATION
             >;
 
-            sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
+            sensor-bindings = <&scroll_up_down>;
         };
 
         MOUSE {
