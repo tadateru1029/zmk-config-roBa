@@ -69,6 +69,7 @@
             bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
 
             // 追加: スクロールのタップ時間を設定 (20ms)
+
             tap-ms = <20>;
         };
     };
@@ -84,7 +85,7 @@
 &mt LEFT_SHIFT LANGUAGE_1  &mt LEFT_CONTROL AT_SIGN  &mt LEFT_ALT BACKSLASH  &lt_to_layer_0 6 BACKSPACE  &lt 2 SPACE  &lt_to_layer_0 3 TAB      &kp BACKSPACE  &lt 1 ENTER                                                        &kp LANGUAGE_2
             >;
 
-            sensor-bindings = <&scroll_up_down>;
+            sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
         };
 
         FUNCTION {
